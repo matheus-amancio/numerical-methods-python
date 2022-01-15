@@ -1,8 +1,8 @@
 # -*- encoding: utf-8 -*-
 
 def bissecao(func, a, b, tol, max_iter=16):
-    """Implementação do método da bisseção para a
-    resolução de zero de função.
+    """Implementação do método da bisseção para a \
+resolução de zero de função.
 
     Parâmetros:
         [func] (function): Função a qual se deseja obter zero.
