@@ -36,7 +36,7 @@ resolução de zero de função.
                 a = ze
             ze = (a + b) / 2
         iter += 1
-        print(f'{iter+1}, {ze}, {func(ze)}')
+        print(f'{iter}, {ze}, {func(ze)}')
         print(f'{ze} é zero da função.')
         return ze
     else:
