@@ -2,7 +2,7 @@
 
 
 def newton_raphson(func, diff, x0, tol, max_iter=16):
-    """Implementação do método do ponto fixo para a \
+    """Implementação do método de Newton-Raphson para a \
 resolução de zero de função.
 
     Parâmetros:
