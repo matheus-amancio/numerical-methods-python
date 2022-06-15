@@ -14,6 +14,9 @@ eliminação de Gauss.
     Retorno:
         Vetor com a solução (numpy.array)
 """
+    A = A.astype(float, copy=True)
+    b = b.astype(float, copy=True)
+
     n = len(A)
 
     for k in range(n):
@@ -28,7 +31,7 @@ eliminação de Gauss.
 
 
 if __name__ == "__main__":
-    A = np.array([[3, 2, 4], [1, 1, 2], [4, 3, -2]], dtype=float)
-    b = np.array([1, 2, 3], dtype=float)
+    A = np.array([[3, 2, 4], [1, 1, 2], [4, 3, -2]])
+    b = np.array([1, 2, 3])
 
     eliminacao_gauss(A, b)
