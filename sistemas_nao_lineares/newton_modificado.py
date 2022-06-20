@@ -1,7 +1,7 @@
 import numpy as np
 
 
-def newton(func, jacob, chute_inicial, tolerancia=1e-6, max_iter=20):
+def newton_modificado(func, jacob, chute_inicial, tolerancia=1e-6, max_iter=20):
     """Resolve um sistema linear de forma aproximada usando \
 o método de Newton Modificado.
 
@@ -44,4 +44,4 @@ if __name__ == "__main__":
     F = lambda x1, x2: np.array([x1 + x2 - 3, x1 ** 2 + x2 ** 2 - 9])
     J = lambda x1, x2: np.array([[1, 1], [2 * x1, 2 * x2]])
     chute = np.array([1, 5])
-    newton(F, J, chute)
+    newton_modificado(F, J, chute)
