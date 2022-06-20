@@ -3,7 +3,7 @@ import numpy as np
 
 def newton_discreto(func, chute_inicial, tolerancia=1e-6, max_iter=20, h=0.01):
     """Resolve um sistema linear de forma aproximada usando \
-o método de Newton.
+o método de Newton Discreto.
 
     Parâmetros:
         [func] (function): Função de interesse.
