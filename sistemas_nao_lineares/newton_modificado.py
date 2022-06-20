@@ -17,7 +17,7 @@ o método de Newton Modificado.
 """
     x0 = chute_inicial
 
-    if np.linalg.norm(func(*x0)) <= tolerancia:
+    if np.linalg.norm(func(*x0)) < tolerancia:
         x = x0
         print(f"A solução aproximada do sistema é o vetor: {x}")
         return x
