@@ -2,6 +2,15 @@ import numpy as np
 
 
 def lagrange(x, y, x_ponto):
+    """Calcula o valor interpolado pelo Método de Lagrange.
+
+    Parâmetros:
+        [x] (numpy.array): valores de x.
+        [y] (numpy.array): valores de y ou f(x).
+        [x_ponto]: abscissa de interesse.
+
+    Retorno:
+        Valor interpolado (float)"""
     n = len(x)
 
     valor_interpolado = 0
