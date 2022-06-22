@@ -8,7 +8,7 @@ ajusta ao conjunto de pontos passado.
     Parâmetros:
         [x] (numpy.array): valores de x.
         [y] (numpy.array): valores de y ou f(x).
-        [n]: Grau do polinômio desejado + 1.
+        [n] (int): Grau do polinômio desejado + 1.
 
     Retorno:
         Coeficientes do polinômio de ajuste (numpy.array)"""
